@@ -1,0 +1,35 @@
+{
+	"name": "nordnet-fiken-import",
+	"version": "0.0.1",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"start": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json",
+		"test": "vitest",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@iconify/json": "2.2.233",
+		"@sveltejs/vite-plugin-svelte": "3.1.1",
+		"@tsconfig/svelte": "^5.0.4",
+		"@types/eslint": "9.6.0",
+		"autoprefixer": "10.4.20",
+		"eslint": "9.8.0",
+		"eslint-plugin-svelte": "2.43.0",
+		"globals": "15.9.0",
+		"svelte": "5.0.0-next.208",
+		"svelte-check": "3.8.5",
+		"tslib": "2.6.3",
+		"typescript": "5.5.4",
+		"typescript-eslint": "8.0.0",
+		"unplugin-icons": "0.19.1",
+		"vite": "5.3.5"
+	},
+	"dependencies": {
+		"date-fns": "3.6.0",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
+}
